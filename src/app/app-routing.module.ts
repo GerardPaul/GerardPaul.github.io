@@ -39,7 +39,7 @@ const routes: Routes = [
     ]
   },
   {
-    path: 'admin', component: AdminLayoutComponent,
+    path: 'administrator', component: AdminLayoutComponent,
     children: [
       {
         path: '',
