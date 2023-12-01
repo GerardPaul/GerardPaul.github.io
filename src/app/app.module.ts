@@ -16,6 +16,7 @@ import { HomeComponent } from './views/main/home/home.component';
 import { ProjectsComponent } from './views/main/projects/projects.component';
 import { AboutComponent } from './views/main/about/about.component';
 import { ContactComponent } from './views/main/contact/contact.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ContactComponent } from './views/main/contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot([]),
   ],
   providers: [],
   bootstrap: [AppComponent]
